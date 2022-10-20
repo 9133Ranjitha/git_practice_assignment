@@ -1,5 +1,5 @@
 bag="";
-    for(i=N-1;i>0;i--){
+    for(i=N-1;i>=0;i--){
         bag+=str[i];
     }
     if(bag==str){
@@ -7,3 +7,5 @@ bag="";
     }else {
         console.log("No");
     }
+
+//debugged the error
